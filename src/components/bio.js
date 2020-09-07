@@ -35,14 +35,14 @@ function Bio() {
             />
             <p>
               Written by <strong>{author}</strong>, a framework built upon the
-              React library.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
+              React library.  
+              {`Check out my portfolio `}
+              <a href={social.portfolio}>
+                here
               </a>
             </p>
           </Container>
-        )
+        );
       }}
     />
   )
@@ -61,7 +61,7 @@ const bioQuery = graphql`
       siteMetadata {
         author
         social {
-          twitter
+          portfolio
         }
       }
     }
