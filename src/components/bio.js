@@ -36,7 +36,7 @@ function Bio() {
             <p>
               Written by <strong>{author}</strong>, a framework built upon the
               React library.  
-              {`Check out my portfolio `}
+              {`  Check out my portfolio `}
               <a href={social.portfolio}>
                 here
               </a>
