@@ -47,3 +47,19 @@ Start from [this point](https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thomaswangio/gatsby-personal-starter-blog)
+
+
+prerequesite npm and node
+as admin
+npm install --global windows-build-tools --vs2015
+
+Install 
+npm install -g gatsby-cli
+
+Clone git@github.com:ianagpawa/blog.git
+
+npm i
+npm run develop
+
+localhost:8000
+/admin endpoint to update
